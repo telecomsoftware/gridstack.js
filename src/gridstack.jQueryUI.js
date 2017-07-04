@@ -21,10 +21,10 @@
     } else {
         factory(jQuery, _, GridStackUI);
     }
-})(function($, _, GridStackUI) {
+})(function($, _, gridstack) {
 
     var scope = window;
-    var GridStackUI = window.GridStackUI || GridStackUI;
+    var GridStackUI = scope.GridStackUI || gridstack;
 
     /**
     * @class JQueryUIGridStackDragDropPlugin
