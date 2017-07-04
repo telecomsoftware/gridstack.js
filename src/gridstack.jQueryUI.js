@@ -24,6 +24,7 @@
 })(function($, _, GridStackUI) {
 
     var scope = window;
+    var GridStackUI = window.GridStackUI || GridStackUI;
 
     /**
     * @class JQueryUIGridStackDragDropPlugin
